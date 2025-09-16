@@ -5,9 +5,15 @@ Chunrong Mi*, Alex Wiebe, Tong Mu, Dan Liang, David S. Wilcove, _2026_ Global im
 
 michunrong123@qq.com/cm2603@princeton.edu, Robertson Hall, Princeton University, Princeton, NJ
 
-In this analysis, we quantified the afforestatoin and reforestaton area (1899-2020) and their impact on biodiversity.
+In this analysis, we quantified global afforestatoin and reforestaton (1899-2020) distribution, size, and their impact on biodiversity.
 
-We used several datasets in this analysis. The long-term land-cover maps are from Winkler et al 2021, natural vegetation maps are from Hengl et al. 2018, and forest type maps are from Xu et al. 2024. Bird distribution maps are from BirdLife International (http://datazone.birdlife.org/); amphibian, reptile, and mammal distribution maps are from the IUCN (https://www.iucnredlist.org/resources/spatial-data-download). Species assessment data (including habitat and elevation preferences) are sourced from IUCN (https://www.iucnredlist.org/). Continent shape file data are from https://hub.arcgis.com/datasets/esri::world-continents/about. Elevation data are available at https://www.worldclim.org/data/worldclim21.html.
+We used several datasets in this analysis. The long-term land-cover maps are from Winkler et al 2021, 
+natural vegetation maps are from Hengl et al. 2018, and forest type maps are from Xu et al. 2024. 
+Bird distribution maps are from BirdLife International (http://datazone.birdlife.org/); 
+amphibian, reptile, and mammal distribution maps are from the IUCN (https://www.iucnredlist.org/resources/spatial-data-download). 
+Species assessment data (including habitat and elevation preferences) are sourced from IUCN (https://www.iucnredlist.org/). 
+Continent shape file data are from https://hub.arcgis.com/datasets/esri::world-continents/about. 
+Elevation data are available at https://www.worldclim.org/data/worldclim21.html.
 
 Winkler, K., Fuchs, R., Rounsevell, M. & Herold, M. Global land use changes are four times greater than previously estimated. Nat. Commun. 12, 2501 (2021).
 Hengl, T. et al. Global mapping of potential natural vegetation: an assessment of machine learning algorithms for estimating land potential. PeerJ 6, e5457 (2018).
