@@ -7,7 +7,7 @@ library(webshot)
 
 data<-read.xlsx("/Users/michunrong/Documents/Google/Paper/Nature-BasedClimateSolution/Afforestation/Table/Aff&Reforestaton_LandcoverChangeOriginal-Middle-Final_1225.xlsx",sheet = 1)
 
-# ????Ψһ??ǩ?б?
+# 
 unique_lables <- unique(c(data$source_land))
 
 #labels <- c(paste0(unique_lables," Original"),
@@ -21,7 +21,7 @@ labels<-c("grassland Original","sparse Original","water Original",
           "natural forest Final","plantation forest Final","agroforestry Final")
 
 
-# ????ÿ??Ŀ???ڵ?????ɫ
+# 
 #colors <- c('rgba(209, 54, 45, 1)','rgba(243, 193, 122, 1)', ###urban, cropland, pasture
 #            'rgba(251, 237, 78, 1)', 'rgba(85, 158, 60, 1)', 'rgba(186, 221, 146, 1)', 'rgba(191, 191, 191, 1)',
 #            'rgba(209, 54, 45, 1)','rgba(243, 193, 122, 1)', ###urban, cropland, pasture
@@ -43,8 +43,7 @@ link_colors0<-adjustcolor(link_colors0, alpha.f = 0.7)
 
 
 
-#?
-#??ʼ?????ڴ??????ݵ??б?
+
 source <- list()
 target <- list()
 value <- list()
@@ -66,7 +65,7 @@ node_color<- c("#52BB7A","#DCDCDC", "#03C5E5",
 
 
 
-# ???? Sankey ͼ
+# make Sankey figure
 fig <- plot_ly(
   type = "sankey",
   orientation = 'v',
@@ -153,8 +152,7 @@ link_colors0<- c("#FCB332","#F9EF69","#52BB7A","#DCDCDC") #"#6B8E23",
 link_colors0<-adjustcolor(link_colors0, alpha.f = 0.7)
 
 
-#?
-#??ʼ?????ڴ??????ݵ??б?
+
 source <- list()
 target <- list()
 value <- list()
@@ -176,7 +174,7 @@ node_color<- c("#6B8E23",
 
 
 
-# ???? Sankey ͼ
+
 fig <- plot_ly(
   type = "sankey",
   orientation = 'v',
