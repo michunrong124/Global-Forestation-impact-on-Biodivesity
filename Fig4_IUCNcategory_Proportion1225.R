@@ -55,7 +55,7 @@ All$Trend<-factor(All$Trend,levels=c("Loser","Stable","Winner"))
 # Load necessary libraries
 library(dplyr)
 
-# 计算 spenum 总和，并计算每个值的百分比
+# Calculate Species numbrer and proportion
 All2 <- All %>%
   group_by(Class, foresttype, redlistCategory,Trend) %>%
   summarise(total_spenum = sum(spenum)) %>%
