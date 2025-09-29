@@ -10,7 +10,7 @@ Change<-Change[,-1]
 
 Change2 <- separate(Change, landcoverChange, into = c("Original", "Middle", "Final"), sep = "; ",remove = FALSE)
 
-# 列出需要替换的类别名称和对应的替换值
+# list name
 replacements <- list("category 22" = "cropland",
                      "category 33" = "pasture",
                      "category 55" = "grassland",
@@ -20,7 +20,7 @@ replacements <- list("category 22" = "cropland",
                      "category 66" = "sparse",
                      "category 77" = "water")
 
-# 对分开的所有列进行替换操作
+# replace
 Change2[, c("Original", "Middle", "Final")] <- lapply(
   Change2[, c("Original", "Middle", "Final")],
   function(column) {
