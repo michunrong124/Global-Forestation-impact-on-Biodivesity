@@ -32,14 +32,16 @@ We perform additional analyses on these outputs, for example to calculate summar
 
 
 3. Figure creation
-fig2.R
-fig3.R
-fig3_part2.R
-fig4.R
+Fig1
+fig2
+fig3
+fig4
+fig5.R
+
 supp_fig1.R
 supp_fig2_totallosses.R
 supp_fig4.R
 supp_fig_logratio.R
 
 Computational requirements
-We ran all code using R version 4.3 on Princeton University’s High Performance Computing cluster. The code may be run on a computer with sufficient RAM to accommodate the in-memory operations. Some scripts have considerable computational requirements (>100 gb RAM, >100 hrs total continuous runtime across all species). An example slurm script (‘OBL_ex_slurm’) is housed in this repository.
+We ran all code using R version 4.3 on Princeton University’s High Performance Computing cluster. The code may be run on a computer with sufficient RAM to accommodate the in-memory operations. Some scripts have considerable computational requirements (>1000 gb RAM, >100 hrs total continuous runtime across all species). 
