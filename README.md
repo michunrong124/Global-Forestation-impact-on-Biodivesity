@@ -19,28 +19,22 @@ Winkler, K., Fuchs, R., Rounsevell, M. & Herold, M. Global land use changes are 
 Hengl, T. et al. Global mapping of potential natural vegetation: an assessment of machine learning algorithms for estimating land potential. PeerJ 6, e5457 (2018).
 Xu, H. et al. Changes in the Fine Composition of Global Forests from 2001 to 2020. J. Remote Sens. 4, (2024).
 
-Overview
-There are three main components to this analysis. All scripts noted below can be found in the /scripts/ folder of this repository.
+Overview:
+There are three main components to this analysis. For main figure, main analysis and supplementary figure.
 
-1. Primary analysis of range loss to species
-Second, the core of our analysis is the calculation of range loss to species attributable to individual countries or across all countries. These scripts also include some code for secondary analysis (e.g., some summary statistics).
+1. Main figure
+Fig.1-Fig5
+   
 
-
-2. Supplementary analyses
-We perform additional analyses on these outputs, for example to calculate summary statistics.
-
-
-3. Figure creation
-Fig1
-fig2
-fig3
-fig4
-fig5.R
-
-supp_fig1.R
-supp_fig2_totallosses.R
-supp_fig4.R
-supp_fig_logratio.R
+2. Main Analysis
+1) Raster of afforestation and reforestaton area generate.
+2) Deal with habitat information from IUCN.
+3) AOH method for four terrestrial vertebrates (amphibians, reptiles, birds, mammals) under afforestation and reforestation for three forest types.
+4) Biodviersity trend statistic.
+5) Some supplementary information.
+   
+3. Supplementary figure
+Supplemetary FigS1,S3,S5-S8.
 
 Computational requirements
-We ran all code using R version 4.3 on Princeton University’s High Performance Computing cluster. The code may be run on a computer with sufficient RAM to accommodate the in-memory operations. Some scripts have considerable computational requirements (>1000 gb RAM, >100 hrs total continuous runtime across all species). 
+We ran all code using R version 4.5.0 on Princeton University’s High Performance Computing cluster. The code may be run on a computer with sufficient RAM to accommodate the in-memory operations. Some scripts have considerable computational requirements (>1000 gb RAM, >100 hrs total continuous runtime across all species). 
