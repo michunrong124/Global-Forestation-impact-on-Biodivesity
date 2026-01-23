@@ -7,8 +7,8 @@ michunrong123@qq.com/cm2603@princeton.edu, Robertson Hall, Princeton University,
 
 In this analysis, we quantified global afforestatoin and reforestaton (1899-2020) distribution, size, and their impact on biodiversity.
 
-We used several datasets in this analysis. The long-term land-cover maps are from Winkler et al 2021, 
-natural vegetation maps are from Hengl et al. 2018, and forest type maps are from Xu et al. 2024. 
+We used several datasets in this analysis. The long-term land-cover maps are from Winkler et al 2021, Nature communications
+natural vegetation maps are from Hengl et al. 2018, PeerJ; and forest type maps are from Xu et al. 2024. Journal of Remote Sensing.
 Bird distribution maps are from BirdLife International (http://datazone.birdlife.org/); 
 amphibian, reptile, and mammal distribution maps are from the IUCN (https://www.iucnredlist.org/resources/spatial-data-download). 
 Species assessment data (including habitat and elevation preferences) are sourced from IUCN (https://www.iucnredlist.org/). 
