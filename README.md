@@ -20,12 +20,11 @@ Hengl, T. et al. Global mapping of potential natural vegetation: an assessment o
 Xu, H. et al. Changes in the Fine Composition of Global Forests from 2001 to 2020. J. Remote Sens. 4, (2024).
 
 Overview:
-There are three main components to this analysis. For main figure, main analysis and supplementary figure.
+There are four main components to this paper. For main figure, main analysis and supplementary figure and supplementary table.
 
 1. Main figure
 Fig.1-Fig5
    
-
 2. Main Analysis
 i) Raster of afforestation and reforestaton area generate.
 ii) Deal with habitat information from IUCN.
@@ -35,6 +34,10 @@ v) Some supplementary information.
    
 3. Supplementary figure
 Supplemetary FigS1,S3,S5-S8.
+
+4. Supplementary Table
+The crosswalk transform species habitat information from IUCN to landcover type.
+
 
 Computational requirements
 We ran all code using R version 4.5.0 on Princeton University’s High Performance Computing cluster. The code may be run on a computer with sufficient RAM to accommodate the in-memory operations. Some scripts have considerable computational requirements (>1000 gb RAM, >100 hrs total continuous runtime across all species). 
