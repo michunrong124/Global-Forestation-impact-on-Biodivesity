@@ -26,7 +26,6 @@ There are three main components to this analysis. All scripts noted below can be
 Second, the core of our analysis is the calculation of range loss to species attributable to individual countries or across all countries. These scripts also include some code for secondary analysis (e.g., some summary statistics).
 
 
-
 2. Supplementary analyses
 We perform additional analyses on these outputs, for example to calculate summary statistics.
 
