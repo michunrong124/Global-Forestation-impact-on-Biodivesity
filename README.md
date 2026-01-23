@@ -27,11 +27,11 @@ Fig.1-Fig5
    
 
 2. Main Analysis
-1) Raster of afforestation and reforestaton area generate.
-2) Deal with habitat information from IUCN.
-3) AOH method for four terrestrial vertebrates (amphibians, reptiles, birds, mammals) under afforestation and reforestation for three forest types.
-4) Biodviersity trend statistic.
-5) Some supplementary information.
+i) Raster of afforestation and reforestaton area generate.
+ii) Deal with habitat information from IUCN.
+iii) AOH method for four terrestrial vertebrates (amphibians, reptiles, birds, mammals) under afforestation and reforestation for three forest types.
+iv) Biodviersity trend statistic.
+v) Some supplementary information.
    
 3. Supplementary figure
 Supplemetary FigS1,S3,S5-S8.
