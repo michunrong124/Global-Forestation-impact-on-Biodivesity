@@ -9,8 +9,9 @@ groups<-c("Amphibian","Reptile","Bird","Mammal")
 forest_types<-c("Natural","Plantation","Agroforestry")
 
 myfunction<-function(group,forest_type) {
-  Aff<-read.csv(paste0("/Users/michunrong/Documents/Google/Paper/Nature-BasedClimateSolution/Afforestation/Table/Statistic_Result/",group,"_Afforestation_RangeChangeTrend_Significant_",forest_type,"AddWinner.csv"))
-  Ref<-read.csv(paste0("/Users/michunrong/Documents/Google/Paper/Nature-BasedClimateSolution/Afforestation/Table/Statistic_Result/",group,"_Reforestation_RangeChangeTrend_Significant_",forest_type,"AddWinner.csv"))
+  Aff<-read.csv(paste0("/Users/michunrong/Documents/Google/Paper/Nature-BasedClimateSolution/Afforestation/Table/Afforestation_SpeciesArea/Statistic_Result/",group,"_Afforestation_RangeChangeTrend_Significant_",forest_type,"AddWinner.csv"))
+  Ref<-read.csv(paste0("/Users/michunrong/Documents/Google/Paper/Nature-BasedClimateSolution/Afforestation/Table/Reforestation_SpeciesArea/Statistic_Result/",group,"_Reforestation_RangeChangeTrend_Significant_",forest_type,"AddWinner.csv"))
+  
   
   
   Aff_table <- data.frame(table(Aff$category,Aff$redlistCategory))
@@ -55,7 +56,7 @@ All$Trend<-factor(All$Trend,levels=c("Loser","Stable","Winner"))
 # Load necessary libraries
 library(dplyr)
 
-# ¼ÆËã spenum ×ÜºÍ£¬²¢¼ÆËãÃ¿¸öÖµµÄ°Ù·Ö±È
+# è®¡ç®— spenum æ€»å’Œï¼Œå¹¶è®¡ç®—æ¯ä¸ªå€¼çš„ç™¾åˆ†æ¯”
 All2 <- All %>%
   group_by(Class, foresttype, redlistCategory,Trend) %>%
   summarise(total_spenum = sum(spenum)) %>%
@@ -132,7 +133,7 @@ p4ratio <- ggplot(subset(winner_loser_ratio2), aes(x = redlistCategory, y = Winn
   geom_text(aes(label = ifelse(Winner_Loser_Ratio > 0.01, round(Winner_Loser_Ratio, 2), "")),
             vjust = -0.5, size = 2.5)+
   
-  # ?? foresttype??Group ?? Class ?????????????? foresttype ???§Þ???
+  # ?? foresttype??Group ?? Class ?????????????? foresttype ???Ð¼???
   #scale_fill_brewer(palette = "Set1") +  # ???? Set1 ??????
   #scale_fill_manual(values=color)+
   theme_bw() +
