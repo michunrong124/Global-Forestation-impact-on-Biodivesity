@@ -4,6 +4,14 @@ The baseline is public `main` at `8dd90a715866f03dde2c9c6cbd832ff1cb7a8fc1`. The
 
 [Script dependencies](script-dependencies.tsv) records attached packages, worker-side packages, and namespace references. The original scripts exchange files, with no active `source()` calls found. `stats::mcnemar.test` is provided by R. The proposed `exact2x2` alternative occurs in comments. [Script paths](script-paths.tsv) indexes active path literals, output destinations, and common filename fragments by source line. Consult the referenced code for variables and full paths assembled at runtime. The inventory replaces the original machine-specific roots with placeholders and groups identical literals within each script. Commented exports, implicit plot devices, and shapefile sidecars are described here where relevant.
 
+## Global analysis environment
+
+The submitted Methods specify R 4.3.2 for McNemar tests. The November README revision also records R 4.3.2 for the Princeton HPC run. An earlier README reported R 4.5.0. Historical runtime records, package versions, and the cluster OS remain unverified. The authors report more than 1,000 GB RAM for some scripts and more than 100 hours of cumulative runtime across species. The basis of the memory figure still needs confirmation. AOH scripts request 10 or 40 workers via `snowfall`. The statistics scripts use multicore `mclapply`, which requires fork support. Allow storage for species rasters, intermediate tables, and temporary raster files.
+
+The [dependency inventory](docs/script-dependencies.tsv) lists each original script’s package calls, including worker imports. `parallel` and `stats` ship with R. Source builds of `terra` and `sf` need a compatible toolchain and GDAL, GEOS, PROJ, and SQLite. Check the package requirements for `terra` (C++17 and TBB), `sf` dependencies (including UDUNITS-2 for `units`), and `magick` (ImageMagick++). Fig. 2’s self-contained HTML and PDF export uses Pandoc and PhantomJS, respectively. [terra requirements](https://cran.r-project.org/package=terra) · [sf requirements](https://cran.r-project.org/package=sf) · [HTML widget export documentation](https://rstudio.github.io/bookdown/html-widgets.html)
+
+Before Fig. 2 export, check `rmarkdown::pandoc_available()` and `webshot::is_phantomjs_installed()`.
+
 ## Execution order and figure mapping
 
 | Stage or result | Tracked scripts | Inputs and outputs |
