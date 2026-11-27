@@ -1,0 +1,51 @@
+script	attached_R_packages	worker_R_packages	namespace_calls
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_2020_Ex_Alt3Cate.R	dplyr, parallel, raster, sf, snowfall, terra	dplyr, raster, sf, snowfall, stringr, terra	-
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	dplyr, parallel, raster, sf, snowfall, terra	dplyr, raster, sf, snowfall, stringr, terra	terra::mask
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_2020_Ex_Alt3Cate.R	dplyr, parallel, raster, sf, snowfall, terra	dplyr, raster, sf, snowfall, stringr, terra	-
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	dplyr, parallel, raster, sf, snowfall, terra	dplyr, raster, sf, snowfall, stringr, terra	terra::mask
+MainAnalysis/AOH/Bird_Afforestation_DistClip_2020_Ex_Alt3Cate.R	dplyr, parallel, raster, sf, snowfall, terra	dplyr, raster, sf, snowfall, stringr, terra	-
+MainAnalysis/AOH/Bird_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	dplyr, parallel, raster, sf, snowfall, terra	dplyr, raster, sf, snowfall, stringr, terra	terra::mask
+MainAnalysis/AOH/Bird_Reforestation_DistClip_2020_Ex_Alt3Cate.R	dplyr, parallel, raster, sf, snowfall, terra	dplyr, raster, sf, snowfall, stringr, terra	-
+MainAnalysis/AOH/Bird_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	dplyr, parallel, raster, sf, snowfall, terra	dplyr, raster, sf, snowfall, stringr, terra	terra::mask
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_2020_Ex_Alt3Cate.R	dplyr, parallel, raster, sf, snowfall, terra	dplyr, raster, sf, snowfall, stringr, terra	-
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	dplyr, parallel, raster, sf, snowfall, terra	dplyr, raster, sf, snowfall, stringr, terra	terra::mask
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_2020_Ex_Alt3Cate.R	dplyr, parallel, raster, sf, snowfall, terra	dplyr, raster, sf, snowfall, stringr, terra	-
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	dplyr, parallel, raster, sf, snowfall, terra	dplyr, raster, sf, snowfall, stringr, terra	terra::mask
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_2020_Ex_Alt3Cate.R	dplyr, parallel, raster, sf, snowfall, terra	dplyr, raster, sf, snowfall, stringr, terra	-
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	dplyr, parallel, raster, sf, snowfall, terra	dplyr, raster, sf, snowfall, stringr, terra	terra::mask
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_2020_Ex_Alt3Cate.R	dplyr, parallel, raster, sf, snowfall, terra	dplyr, raster, sf, snowfall, stringr, terra	-
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	dplyr, parallel, raster, sf, snowfall, terra	dplyr, raster, sf, snowfall, stringr, terra	terra::mask
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	openxlsx, parallel, snowfall, stringr, terra	-	-
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	openxlsx, parallel, snowfall, stringr, terra	-	-
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	openxlsx, parallel, snowfall, stringr, terra	-	-
+MainAnalysis/AgroforestryinTrop&SubTrop.R	terra	-	-
+MainAnalysis/FourGroups_Statistic_Area_Change_Significant_3Cate.R	data.table, dplyr, openxlsx, parallel, tidyverse	-	-
+MainAnalysis/Generate_afforestation_reforestation_rasterfile.R	terra	-	-
+MainAnalysis/HabitatCombine2.R	dplyr, stringr, tidyverse	-	-
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	-	-	-
+MainAnalysis/Habitat_extract_0916.R	dplyr, stringr, tidyverse	-	-
+MainAnalysis/Merge IUCN species distribution list with habitat list.R	-	-	-
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	openxlsx, parallel, snowfall, stringr, terra	-	-
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	openxlsx, parallel, snowfall, stringr, terra	-	-
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	openxlsx, parallel, snowfall, stringr, terra	-	-
+MainAnalysis/Statistic_Area_Change_Significant_Aff&Ref_Continent_FourGroups_ForFigS7.R	data.table, dplyr, openxlsx, parallel, tidyverse	-	-
+MainAnalysis/Statistic_ForestationAreaInEachContinent.R	dplyr, terra	-	-
+MainAnalysis/Statistic_SpeciesNumber_TotalAndEachGroup.R	dplyr	-	-
+MainFigure/Fig1/Fig1a_Export_Aff&Ref_Distributionmap_10km.R	magick, rworldmap, rworldxtra, terra	-	-
+MainFigure/Fig1/Fig1b_Continent_2foreationAreaStatistic.R	dplyr, ggplot2, openxlsx	-	-
+MainFigure/Fig2/Aff&Reforestation_Statistic_LandcoverChange.R	openxlsx, terra, tidyr	-	-
+MainFigure/Fig2/Fig2_Global_LandcoverTransform_Sankey.R	htmlwidgets, openxlsx, plotly, webshot	-	-
+MainFigure/Fig3/Fig3_Winner&Loser_Global_3ForestType_All&Group.R	dplyr, ggplot2, parallel, reshape2	-	-
+MainFigure/Fig3/FourGroups_Statistic_Area_Change_Significant_3Cate.R	data.table, dplyr, openxlsx, parallel, tidyverse	-	-
+MainFigure/Fig3/Statistic_SpeciesNumber_TotalAndEachGroup.R	dplyr	-	-
+MainFigure/Fig4/Fig4_IUCNcategory_Proportion.R	dplyr, ggplot2, parallel	-	-
+MainFigure/Fig5/Fig5_All_Group_Pi.R	dplyr, ggplot2, terra	-	-
+MainFigure/Fig5/Fig5_Four_Group_Pi.R	dplyr, ggplot2, gridExtra, terra	-	-
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_All.R	terra	-	-
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_FourGroup.R	terra	-	-
+SupplementaryFigure/FigS1_Analysis_LandcoverChangeHistory.R	dplyr, parallel, terra	-	stringr::str_extract
+SupplementaryFigure/FigS3_Forestation_Natural_ActiveHumanUse_Occupy_.R	terra	-	-
+SupplementaryFigure/FigS5_Overlap_Forest&PlantationPaper0916.R	terra	-	-
+SupplementaryFigure/FigS6_Ratio_ForestType.R	dplyr, ggplot2, parallel, reshape2	-	-
+SupplementaryFigure/FigS7_Winner&Loser_Global_3Cate_0401Final_Continent.R	ggplot2, parallel	-	-
+SupplementaryFigure/FigS8_Ratio_IUCN.R	dplyr, ggplot2, parallel	-	-

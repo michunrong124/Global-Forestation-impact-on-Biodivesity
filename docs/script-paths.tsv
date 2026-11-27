@@ -1,0 +1,526 @@
+script	lines	role	call_context	path_or_filename_fragment
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_2020_Ex_Alt3Cate.R	13	path binding or fragment	-	<HPC_SCRATCH>/SpeciesDistribution/AOH/Amphibian/
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_2020_Ex_Alt3Cate.R	14	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Amphibian/Natural/
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_2020_Ex_Alt3Cate.R	15	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Amphibian/Plantation/
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_2020_Ex_Alt3Cate.R	16	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Amphibian/Agroforestry/
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_2020_Ex_Alt3Cate.R	20	input	raster	<HPC_SCRATCH>/Afforestation/altitudeEckert.tif
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_2020_Ex_Alt3Cate.R	21	input	raster	<HPC_SCRATCH>/Afforestation/Afforestation_Clip/Landcover2020_affClip.tif
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_2020_Ex_Alt3Cate.R	31	input	read.csv	<HPC_SCRATCH>/Afforestation/VertebratesHabitat/IUCN_Amphibian_search_Reasult/habitats_combine6_1.csv
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_2020_Ex_Alt3Cate.R	50,78,106	input	raster/paste0	.tif
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_2020_Ex_Alt3Cate.R	61,89,117	output	writeRaster/paste0	.tif
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_2020_Ex_Alt3Cate.R	69,97,125	output	write.csv/paste	.csv
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	13	path binding or fragment	-	<HPC_SCRATCH>/SpeciesDistribution/AOH/Amphibian/
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	14	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Amphibian/Natural/
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	15	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Amphibian/Plantation/
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	16	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Amphibian/Agroforestry/
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	20	input	raster	<HPC_SCRATCH>/Afforestation/altitudeEckert.tif
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	21	input	raster	<HPC_SCRATCH>/Afforestation/Afforestation_Clip/LandcoverMid_affClip.tif
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	24	input	raster	<HPC_SCRATCH>/Afforestation/Afforestation_Clip/Landcover2020_affClip.tif
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	36	input	read.csv	<HPC_SCRATCH>/Afforestation/VertebratesHabitat/IUCN_Amphibian_search_Reasult/habitats_combine6_1.csv
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	55,83,111	input	raster/paste0	.tif
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	66,94,122	output	writeRaster/paste0	.tif
+MainAnalysis/AOH/Ampbhian_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	74,102,130	output	write.csv/paste	.csv
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_2020_Ex_Alt3Cate.R	13	path binding or fragment	-	<HPC_SCRATCH>/SpeciesDistribution/AOH/Amphibian/
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_2020_Ex_Alt3Cate.R	14	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Amphibian/Natural/
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_2020_Ex_Alt3Cate.R	15	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Amphibian/Plantation/
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_2020_Ex_Alt3Cate.R	16	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Amphibian/Agroforestry/
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_2020_Ex_Alt3Cate.R	20	input	raster	<HPC_SCRATCH>/Reforestation/altitudeEckert.tif
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_2020_Ex_Alt3Cate.R	21	input	raster	<HPC_SCRATCH>/Reforestation/Reforestation_Clip/Landcover2020_refClip.tif
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_2020_Ex_Alt3Cate.R	31	input	read.csv	<HPC_SCRATCH>/Reforestation/VertebratesHabitat/IUCN_Amphibian_search_Reasult/habitats_combine6_1.csv
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_2020_Ex_Alt3Cate.R	50,78,106	input	raster/paste0	.tif
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_2020_Ex_Alt3Cate.R	61,89,117	output	writeRaster/paste0	.tif
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_2020_Ex_Alt3Cate.R	69,97,125	output	write.csv/paste	.csv
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	13	path binding or fragment	-	<HPC_SCRATCH>/SpeciesDistribution/AOH/Amphibian/
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	14	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Amphibian/Natural/
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	15	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Amphibian/Plantation/
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	16	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Amphibian/Agroforestry/
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	20	input	raster	<HPC_SCRATCH>/Reforestation/altitudeEckert.tif
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	21	input	raster	<HPC_SCRATCH>/Reforestation/Reforestation_Clip/LandcoverMid_refClip.tif
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	24	input	raster	<HPC_SCRATCH>/Reforestation/Reforestation_Clip/Landcover2020_refClip.tif
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	36	input	read.csv	<HPC_SCRATCH>/Reforestation/VertebratesHabitat/IUCN_Amphibian_search_Reasult/habitats_combine6_1.csv
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	55,83,111	input	raster/paste0	.tif
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	66,94,122	output	writeRaster/paste0	.tif
+MainAnalysis/AOH/Amphibian_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	74,102,130	output	write.csv/paste	.csv
+MainAnalysis/AOH/Bird_Afforestation_DistClip_2020_Ex_Alt3Cate.R	13	path binding or fragment	-	<HPC_SCRATCH>/SpeciesDistribution/AOH/Bird/
+MainAnalysis/AOH/Bird_Afforestation_DistClip_2020_Ex_Alt3Cate.R	14	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Bird/Natural/
+MainAnalysis/AOH/Bird_Afforestation_DistClip_2020_Ex_Alt3Cate.R	15	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Bird/Plantation/
+MainAnalysis/AOH/Bird_Afforestation_DistClip_2020_Ex_Alt3Cate.R	16	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Bird/Agroforestry/
+MainAnalysis/AOH/Bird_Afforestation_DistClip_2020_Ex_Alt3Cate.R	20	input	raster	<HPC_SCRATCH>/Afforestation/altitudeEckert.tif
+MainAnalysis/AOH/Bird_Afforestation_DistClip_2020_Ex_Alt3Cate.R	21	input	raster	<HPC_SCRATCH>/Afforestation/Afforestation_Clip/Landcover2020_affClip.tif
+MainAnalysis/AOH/Bird_Afforestation_DistClip_2020_Ex_Alt3Cate.R	31	input	read.csv	<HPC_SCRATCH>/Afforestation/VertebratesHabitat/IUCN_Bird_search_Reasult/habitats_combine6_1.csv
+MainAnalysis/AOH/Bird_Afforestation_DistClip_2020_Ex_Alt3Cate.R	50,78,106	input	raster/paste0	.tif
+MainAnalysis/AOH/Bird_Afforestation_DistClip_2020_Ex_Alt3Cate.R	61,89,117	output	writeRaster/paste0	.tif
+MainAnalysis/AOH/Bird_Afforestation_DistClip_2020_Ex_Alt3Cate.R	69,97,125	output	write.csv/paste	.csv
+MainAnalysis/AOH/Bird_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	13	path binding or fragment	-	<HPC_SCRATCH>/SpeciesDistribution/AOH/Bird/
+MainAnalysis/AOH/Bird_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	14	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Bird/Natural/
+MainAnalysis/AOH/Bird_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	15	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Bird/Plantation/
+MainAnalysis/AOH/Bird_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	16	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Bird/Agroforestry/
+MainAnalysis/AOH/Bird_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	20	input	raster	<HPC_SCRATCH>/Afforestation/altitudeEckert.tif
+MainAnalysis/AOH/Bird_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	21	input	raster	<HPC_SCRATCH>/Afforestation/Afforestation_Clip/LandcoverMid_affClip.tif
+MainAnalysis/AOH/Bird_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	24	input	raster	<HPC_SCRATCH>/Afforestation/Afforestation_Clip/Landcover2020_affClip.tif
+MainAnalysis/AOH/Bird_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	36	input	read.csv	<HPC_SCRATCH>/Afforestation/VertebratesHabitat/IUCN_Bird_search_Reasult/habitats_combine6_1.csv
+MainAnalysis/AOH/Bird_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	55,83,111	input	raster/paste0	.tif
+MainAnalysis/AOH/Bird_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	66,94,122	output	writeRaster/paste0	.tif
+MainAnalysis/AOH/Bird_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	74,102,130	output	write.csv/paste	.csv
+MainAnalysis/AOH/Bird_Reforestation_DistClip_2020_Ex_Alt3Cate.R	13	path binding or fragment	-	<HPC_SCRATCH>/SpeciesDistribution/AOH/Bird/
+MainAnalysis/AOH/Bird_Reforestation_DistClip_2020_Ex_Alt3Cate.R	14	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Bird/Natural/
+MainAnalysis/AOH/Bird_Reforestation_DistClip_2020_Ex_Alt3Cate.R	15	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Bird/Plantation/
+MainAnalysis/AOH/Bird_Reforestation_DistClip_2020_Ex_Alt3Cate.R	16	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Bird/Agroforestry/
+MainAnalysis/AOH/Bird_Reforestation_DistClip_2020_Ex_Alt3Cate.R	20	input	raster	<HPC_SCRATCH>/Reforestation/altitudeEckert.tif
+MainAnalysis/AOH/Bird_Reforestation_DistClip_2020_Ex_Alt3Cate.R	21	input	raster	<HPC_SCRATCH>/Reforestation/Reforestation_Clip/Landcover2020_refClip.tif
+MainAnalysis/AOH/Bird_Reforestation_DistClip_2020_Ex_Alt3Cate.R	31	input	read.csv	<HPC_SCRATCH>/Reforestation/VertebratesHabitat/IUCN_Bird_search_Reasult/habitats_combine6_1.csv
+MainAnalysis/AOH/Bird_Reforestation_DistClip_2020_Ex_Alt3Cate.R	50,78,106	input	raster/paste0	.tif
+MainAnalysis/AOH/Bird_Reforestation_DistClip_2020_Ex_Alt3Cate.R	61,89,117	output	writeRaster/paste0	.tif
+MainAnalysis/AOH/Bird_Reforestation_DistClip_2020_Ex_Alt3Cate.R	69,97,125	output	write.csv/paste	.csv
+MainAnalysis/AOH/Bird_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	13	path binding or fragment	-	<HPC_SCRATCH>/SpeciesDistribution/AOH/Bird/
+MainAnalysis/AOH/Bird_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	14	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Bird/Natural/
+MainAnalysis/AOH/Bird_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	15	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Bird/Plantation/
+MainAnalysis/AOH/Bird_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	16	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Bird/Agroforestry/
+MainAnalysis/AOH/Bird_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	20	input	raster	<HPC_SCRATCH>/Reforestation/altitudeEckert.tif
+MainAnalysis/AOH/Bird_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	21	input	raster	<HPC_SCRATCH>/Reforestation/Reforestation_Clip/LandcoverMid_refClip.tif
+MainAnalysis/AOH/Bird_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	24	input	raster	<HPC_SCRATCH>/Reforestation/Reforestation_Clip/Landcover2020_refClip.tif
+MainAnalysis/AOH/Bird_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	36	input	read.csv	<HPC_SCRATCH>/Reforestation/VertebratesHabitat/IUCN_Bird_search_Reasult/habitats_combine6_1.csv
+MainAnalysis/AOH/Bird_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	55,83,111	input	raster/paste0	.tif
+MainAnalysis/AOH/Bird_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	66,94,122	output	writeRaster/paste0	.tif
+MainAnalysis/AOH/Bird_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	74,102,130	output	write.csv/paste	.csv
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_2020_Ex_Alt3Cate.R	13	path binding or fragment	-	<HPC_SCRATCH>/SpeciesDistribution/AOH/Mammal/
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_2020_Ex_Alt3Cate.R	14	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Mammal/Natural/
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_2020_Ex_Alt3Cate.R	15	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Mammal/Plantation/
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_2020_Ex_Alt3Cate.R	16	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Mammal/Agroforestry/
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_2020_Ex_Alt3Cate.R	20	input	raster	<HPC_SCRATCH>/Afforestation/altitudeEckert.tif
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_2020_Ex_Alt3Cate.R	21	input	raster	<HPC_SCRATCH>/Afforestation/Afforestation_Clip/Landcover2020_affClip.tif
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_2020_Ex_Alt3Cate.R	31	input	read.csv	<HPC_SCRATCH>/Afforestation/VertebratesHabitat/IUCN_Mammal_search_Reasult/habitats_combine6_1.csv
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_2020_Ex_Alt3Cate.R	50,78,106	input	raster/paste0	.tif
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_2020_Ex_Alt3Cate.R	61,89,117	output	writeRaster/paste0	.tif
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_2020_Ex_Alt3Cate.R	69,97,125	output	write.csv/paste	.csv
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	13	path binding or fragment	-	<HPC_SCRATCH>/SpeciesDistribution/AOH/Mammal/
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	14	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Mammal/Natural/
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	15	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Mammal/Plantation/
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	16	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Mammal/Agroforestry/
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	20	input	raster	<HPC_SCRATCH>/Afforestation/altitudeEckert.tif
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	21	input	raster	<HPC_SCRATCH>/Afforestation/Afforestation_Clip/LandcoverMid_affClip.tif
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	24	input	raster	<HPC_SCRATCH>/Afforestation/Afforestation_Clip/Landcover2020_affClip.tif
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	36	input	read.csv	<HPC_SCRATCH>/Afforestation/VertebratesHabitat/IUCN_Mammal_search_Reasult/habitats_combine6_1.csv
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	55,83,111	input	raster/paste0	.tif
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	66,94,122	output	writeRaster/paste0	.tif
+MainAnalysis/AOH/Mammal_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	74,102,130	output	write.csv/paste	.csv
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_2020_Ex_Alt3Cate.R	13	path binding or fragment	-	<HPC_SCRATCH>/SpeciesDistribution/AOH/Mammal/
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_2020_Ex_Alt3Cate.R	14	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Mammal/Natural/
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_2020_Ex_Alt3Cate.R	15	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Mammal/Plantation/
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_2020_Ex_Alt3Cate.R	16	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Mammal/Agroforestry/
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_2020_Ex_Alt3Cate.R	20	input	raster	<HPC_SCRATCH>/Reforestation/altitudeEckert.tif
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_2020_Ex_Alt3Cate.R	21	input	raster	<HPC_SCRATCH>/Reforestation/Reforestation_Clip/Landcover2020_refClip.tif
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_2020_Ex_Alt3Cate.R	31	input	read.csv	<HPC_SCRATCH>/Reforestation/VertebratesHabitat/IUCN_Mammal_search_Reasult/habitats_combine6_1.csv
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_2020_Ex_Alt3Cate.R	50,78,106	input	raster/paste0	.tif
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_2020_Ex_Alt3Cate.R	61,89,117	output	writeRaster/paste0	.tif
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_2020_Ex_Alt3Cate.R	69,97,125	output	write.csv/paste	.csv
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	13	path binding or fragment	-	<HPC_SCRATCH>/SpeciesDistribution/AOH/Mammal/
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	14	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Mammal/Natural/
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	15	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Mammal/Plantation/
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	16	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Mammal/Agroforestry/
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	20	input	raster	<HPC_SCRATCH>/Reforestation/altitudeEckert.tif
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	21	input	raster	<HPC_SCRATCH>/Reforestation/Reforestation_Clip/LandcoverMid_refClip.tif
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	24	input	raster	<HPC_SCRATCH>/Reforestation/Reforestation_Clip/Landcover2020_refClip.tif
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	36	input	read.csv	<HPC_SCRATCH>/Reforestation/VertebratesHabitat/IUCN_Mammal_search_Reasult/habitats_combine6_1.csv
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	55,83,111	input	raster/paste0	.tif
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	66,94,122	output	writeRaster/paste0	.tif
+MainAnalysis/AOH/Mammal_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	74,102,130	output	write.csv/paste	.csv
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_2020_Ex_Alt3Cate.R	13	path binding or fragment	-	<HPC_SCRATCH>/SpeciesDistribution/AOH/Reptile/
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_2020_Ex_Alt3Cate.R	14	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Reptile/Natural/
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_2020_Ex_Alt3Cate.R	15	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Reptile/Plantation/
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_2020_Ex_Alt3Cate.R	16	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Reptile/Agroforestry/
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_2020_Ex_Alt3Cate.R	20	input	raster	<HPC_SCRATCH>/Afforestation/altitudeEckert.tif
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_2020_Ex_Alt3Cate.R	21	input	raster	<HPC_SCRATCH>/Afforestation/Afforestation_Clip/Landcover2020_affClip.tif
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_2020_Ex_Alt3Cate.R	31	input	read.csv	<HPC_SCRATCH>/Afforestation/VertebratesHabitat/IUCN_Reptile_search_Reasult/habitats_combine6_1.csv
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_2020_Ex_Alt3Cate.R	50,78,106	input	raster/paste0	.tif
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_2020_Ex_Alt3Cate.R	61,89,117	output	writeRaster/paste0	.tif
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_2020_Ex_Alt3Cate.R	69,97,125	output	write.csv/paste	.csv
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	13	path binding or fragment	-	<HPC_SCRATCH>/SpeciesDistribution/AOH/Reptile/
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	14	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Reptile/Natural/
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	15	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Reptile/Plantation/
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	16	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Reptile/Agroforestry/
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	20	input	raster	<HPC_SCRATCH>/Afforestation/altitudeEckert.tif
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	21	input	raster	<HPC_SCRATCH>/Afforestation/Afforestation_Clip/LandcoverMid_affClip.tif
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	24	input	raster	<HPC_SCRATCH>/Afforestation/Afforestation_Clip/Landcover2020_affClip.tif
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	36	input	read.csv	<HPC_SCRATCH>/Afforestation/VertebratesHabitat/IUCN_Reptile_search_Reasult/habitats_combine6_1.csv
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	55,83,111	input	raster/paste0	.tif
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	66,94,122	output	writeRaster/paste0	.tif
+MainAnalysis/AOH/Reptile_Afforestation_DistClip_Mid_Ex_Alt3Cate.R	74,102,130	output	write.csv/paste	.csv
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_2020_Ex_Alt3Cate.R	13	path binding or fragment	-	<HPC_SCRATCH>/SpeciesDistribution/AOH/Reptile/
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_2020_Ex_Alt3Cate.R	14	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Reptile/Natural/
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_2020_Ex_Alt3Cate.R	15	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Reptile/Plantation/
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_2020_Ex_Alt3Cate.R	16	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Reptile/Agroforestry/
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_2020_Ex_Alt3Cate.R	20	input	raster	<HPC_SCRATCH>/Reforestation/altitudeEckert.tif
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_2020_Ex_Alt3Cate.R	21	input	raster	<HPC_SCRATCH>/Reforestation/Reforestation_Clip/Landcover2020_refClip.tif
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_2020_Ex_Alt3Cate.R	31	input	read.csv	<HPC_SCRATCH>/Reforestation/VertebratesHabitat/IUCN_Reptile_search_Reasult/habitats_combine6_1.csv
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_2020_Ex_Alt3Cate.R	50,78,106	input	raster/paste0	.tif
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_2020_Ex_Alt3Cate.R	61,89,117	output	writeRaster/paste0	.tif
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_2020_Ex_Alt3Cate.R	69,97,125	output	write.csv/paste	.csv
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	13	path binding or fragment	-	<HPC_SCRATCH>/SpeciesDistribution/AOH/Reptile/
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	14	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Reptile/Natural/
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	15	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Reptile/Plantation/
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	16	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Reptile/Agroforestry/
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	20	input	raster	<HPC_SCRATCH>/Reforestation/altitudeEckert.tif
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	21	input	raster	<HPC_SCRATCH>/Reforestation/Reforestation_Clip/LandcoverMid_refClip.tif
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	24	input	raster	<HPC_SCRATCH>/Reforestation/Reforestation_Clip/Landcover2020_refClip.tif
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	36	input	read.csv	<HPC_SCRATCH>/Reforestation/VertebratesHabitat/IUCN_Reptile_search_Reasult/habitats_combine6_1.csv
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	55,83,111	input	raster/paste0	.tif
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	66,94,122	output	writeRaster/paste0	.tif
+MainAnalysis/AOH/Reptile_Reforestation_DistClip_Mid_Ex_Alt3Cate.R	74,102,130	output	write.csv/paste	.csv
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	10	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Table/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	12	input	list.files	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Amphibian/Agroforestry/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	17,29,40,50	path binding or fragment	str_replace_all/strsplit	.tif
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	24	input	list.files	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Reptile/Agroforestry/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	35	input	list.files	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Mammal/Agroforestry/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	45	input	list.files	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Bird/Agroforestry/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	57	input	rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Amphibian/Agroforestry/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	57,103,148,196	input	rast/paste0	.tif
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	59	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Amphibian/Agroforestry/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	59,66,105,112,150,157,198,205	input	tryCatch/rast/paste0	.tif
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	66	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Amphibian/Agroforestry/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	98	output	write.csv/paste0	Amphibian_Afforestation_Area_Agroforestry.csv
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	103	input	rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Reptile/Agroforestry/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	105	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Reptile/Agroforestry/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	112	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Reptile/Agroforestry/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	144	output	write.csv/paste0	Reptile_Afforestation_Area_Agroforestry.csv
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	148	input	rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Mammal/Agroforestry/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	150	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Mammal/Agroforestry/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	157	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Mammal/Agroforestry/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	189	output	write.csv/paste0	Mammal_Afforestation_Area_Agroforestry.csv
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	196	input	rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Bird/Agroforestry/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	198	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Bird/Agroforestry/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	205	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Bird/Agroforestry/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Agroforestry.R	239	output	write.csv/paste0	Bird_Afforestation_Area_Agroforestry.csv
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	10	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Table/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	12	input	list.files	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Amphibian/Natural/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	17,29,40,50	path binding or fragment	str_replace_all/strsplit	.tif
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	24	input	list.files	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Reptile/Natural/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	35	input	list.files	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Mammal/Natural/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	45	input	list.files	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Bird/Natural/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	57	input	rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Amphibian/Natural/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	57,103,148,196	input	rast/paste0	.tif
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	59	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Amphibian/Natural/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	59,66,105,112,150,157,198,205	input	tryCatch/rast/paste0	.tif
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	66	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Amphibian/Natural/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	98	output	write.csv/paste0	Amphibian_Afforestation_Area_Natural.csv
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	103	input	rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Reptile/Natural/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	105	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Reptile/Natural/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	112	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Reptile/Natural/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	144	output	write.csv/paste0	Reptile_Afforestation_Area_Natural.csv
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	148	input	rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Mammal/Natural/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	150	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Mammal/Natural/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	157	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Mammal/Natural/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	189	output	write.csv/paste0	Mammal_Afforestation_Area_Natural.csv
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	196	input	rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Bird/Natural/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	198	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Bird/Natural/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	205	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Bird/Natural/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Natural.R	238	output	write.csv/paste0	Bird_Afforestation_Area_Natural.csv
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	10	path binding or fragment	-	<HPC_SCRATCH>/Afforestation/Table/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	12	input	list.files	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Amphibian/Plantation/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	17,29,40,50	path binding or fragment	str_replace_all/strsplit	.tif
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	24	input	list.files	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Reptile/Plantation/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	35	input	list.files	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Mammal/Plantation/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	45	input	list.files	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Bird/Plantation/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	57	input	rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Amphibian/Plantation/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	57,103,148,196	input	rast/paste0	.tif
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	59	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Amphibian/Plantation/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	59,66,105,112,150,157,198,205	input	tryCatch/rast/paste0	.tif
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	66	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Amphibian/Plantation/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	98	output	write.csv/paste0	Amphibian_Afforestation_Area_Plantation.csv
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	103	input	rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Reptile/Plantation/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	105	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Reptile/Plantation/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	112	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Reptile/Plantation/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	144	output	write.csv/paste0	Reptile_Afforestation_Area_Plantation.csv
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	148	input	rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Mammal/Plantation/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	150	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Mammal/Plantation/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	157	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Mammal/Plantation/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	189	output	write.csv/paste0	Mammal_Afforestation_Area_Plantation.csv
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	196	input	rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Bird/Plantation/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	198	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/Mid/Bird/Plantation/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	205	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Afforestation/Afforestation_Distribution_Map3/2020/Bird/Plantation/
+MainAnalysis/Afforestation_SpeciesArea_Statistic_Plantation.R	239	output	write.csv/paste0	Bird_Afforestation_Area_Plantation.csv
+MainAnalysis/AgroforestryinTrop&SubTrop.R	2	input	rast	<PROJECT>/Appendix/ForestTypes2020/global_2020.tif
+MainAnalysis/AgroforestryinTrop&SubTrop.R	3	input	vect	<DOWNLOADS>/ArcGISLayer/????Ҫ??ʸ??ͼ/ne_10m_landEckert.shp
+MainAnalysis/FourGroups_Statistic_Area_Change_Significant_3Cate.R	18	input	read.csv/paste0	<PROJECT>/Table/Afforestation_SpeciesArea/
+MainAnalysis/FourGroups_Statistic_Area_Change_Significant_3Cate.R	18,72	input	read.csv/paste0	.csv
+MainAnalysis/FourGroups_Statistic_Area_Change_Significant_3Cate.R	20,74	input	read.csv/paste0	<PROJECT>/Table/VertebratesHabitat/IUCN_
+MainAnalysis/FourGroups_Statistic_Area_Change_Significant_3Cate.R	20,74	input	read.csv/paste0	_search_Reasult/assessments.csv
+MainAnalysis/FourGroups_Statistic_Area_Change_Significant_3Cate.R	57	output	write.csv/paste0	<PROJECT>/Table/Afforestation_SpeciesArea/Statistic_Result/
+MainAnalysis/FourGroups_Statistic_Area_Change_Significant_3Cate.R	57,111	output	write.csv/paste0	.csv
+MainAnalysis/FourGroups_Statistic_Area_Change_Significant_3Cate.R	72	input	read.csv/paste0	<PROJECT>/Table/Reforestation_SpeciesArea/
+MainAnalysis/FourGroups_Statistic_Area_Change_Significant_3Cate.R	111	output	write.csv/paste0	<PROJECT>/Table/Reforestation_SpeciesArea/Statistic_Result/
+MainAnalysis/Generate_afforestation_reforestation_rasterfile.R	5	input	rast	<DATA_VOLUME>/GlobalLanduseData/LanduseChange_1899-2019/V2/Landcover1900.tif
+MainAnalysis/Generate_afforestation_reforestation_rasterfile.R	6	input	rast	<DATA_VOLUME>/GlobalLanduseData/LanduseChange_1899-2019/V2/Landcover1920.tif
+MainAnalysis/Generate_afforestation_reforestation_rasterfile.R	7	input	rast	<DATA_VOLUME>/GlobalLanduseData/LanduseChange_1899-2019/V2/Landcover1940.tif
+MainAnalysis/Generate_afforestation_reforestation_rasterfile.R	8	input	rast	<DATA_VOLUME>/GlobalLanduseData/LanduseChange_1899-2019/V2/Landcover1960_1.tif
+MainAnalysis/Generate_afforestation_reforestation_rasterfile.R	9	input	rast	<DATA_VOLUME>/GlobalLanduseData/LanduseChange_1899-2019/V2/Landcover1980_1.tif
+MainAnalysis/Generate_afforestation_reforestation_rasterfile.R	10	input	rast	<DATA_VOLUME>/GlobalLanduseData/LanduseChange_1899-2019/V2/Landcover2000_1.tif
+MainAnalysis/Generate_afforestation_reforestation_rasterfile.R	11	input	rast	<DATA_VOLUME>/GlobalLanduseData/LanduseChange_1899-2019/V2/Landcover2020_1.tif
+MainAnalysis/Generate_afforestation_reforestation_rasterfile.R	76	input	rast	<DATA_VOLUME>/PotentialOriginalVegetation/dataverse_files-2/pnv_reclassify_Eckert.tif
+MainAnalysis/Generate_afforestation_reforestation_rasterfile.R	118	input	rast	<DATA_VOLUME>/Natural&Planting forest/10478678/Natu_Plant2020_Eckert2.tif
+MainAnalysis/Generate_afforestation_reforestation_rasterfile.R	154	output	writeRaster	<PROJECT>/Figure/Afforestation_Clip/LandcoverMid_affClip.tif
+MainAnalysis/Generate_afforestation_reforestation_rasterfile.R	155	output	writeRaster	<PROJECT>/Figure/Reforestation_Clip/LandcoverMid_refClip.tif
+MainAnalysis/Generate_afforestation_reforestation_rasterfile.R	173	output	writeRaster	<PROJECT>/Figure/Afforestation_Clip/Landcover2020_affClip.tif
+MainAnalysis/Generate_afforestation_reforestation_rasterfile.R	174	output	writeRaster	<PROJECT>/Figure/Reforestation_Clip/Landcover2020_refClip.tif
+MainAnalysis/Generate_afforestation_reforestation_rasterfile.R	197	output	writeRaster	<PROJECT>/Figure/Afforestation_Clip/Landcover1900_affClip.tif
+MainAnalysis/Generate_afforestation_reforestation_rasterfile.R	198	output	writeRaster	<PROJECT>/Figure/Reforestation_Clip/Landcover1900_refClip.tif
+MainAnalysis/HabitatCombine2.R	7	input	read.csv	<PROJECT>/Table/VertebratesHabitat/habitats_legend2.csv
+MainAnalysis/HabitatCombine2.R	9	input	read.csv	<PROJECT>/Appendix/Landcover_Code.csv
+MainAnalysis/HabitatCombine2.R	11	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Amphibian_search_Reasult/habitats3.csv
+MainAnalysis/HabitatCombine2.R	26	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Amphibian_search_Reasult/habitats_combine2_1.csv
+MainAnalysis/HabitatCombine2.R	38	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Amphibian_search_Reasult/habitats_combine3_1.csv
+MainAnalysis/HabitatCombine2.R	42	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Reptile_search_Reasult/habitats3.csv
+MainAnalysis/HabitatCombine2.R	53	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Reptile_search_Reasult/habitats_combine2_1.csv
+MainAnalysis/HabitatCombine2.R	62	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Reptile_search_Reasult/habitats_combine3_1.csv
+MainAnalysis/HabitatCombine2.R	67	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Mammal_search_Reasult/habitats3.csv
+MainAnalysis/HabitatCombine2.R	78	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Mammal_search_Reasult/habitats_combine2_1.csv
+MainAnalysis/HabitatCombine2.R	88	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Mammal_search_Reasult/habitats_combine3_1.csv
+MainAnalysis/HabitatCombine2.R	92	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Bird_search_Reasult/habitats3.csv
+MainAnalysis/HabitatCombine2.R	102	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Bird_search_Reasult/habitats_combine2_1.csv
+MainAnalysis/HabitatCombine2.R	111	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Bird_search_Reasult/habitats_combine3_1.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	3	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Amphibian_search_Reasult/habitats_combine3_1.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	4	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Amphibian_search_Reasult/Elevation.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	6	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Amphibian_search_Reasult/habitats_combine4_1.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	10	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Reptile_search_Reasult/habitats_combine3_1.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	11	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Reptile_search_Reasult/Elevation.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	13	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Reptile_search_Reasult/habitats_combine4_1.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	18	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Mammal_search_Reasult/habitats_combine3_1.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	19	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Mammal_search_Reasult/Elevation.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	21	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Mammal_search_Reasult/habitats_combine4_1.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	28	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Bird_search_Reasult/habitats_combine3_1.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	29	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Bird_search_Reasult/Elevation.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	31	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Bird_search_Reasult/habitats_combine4_1.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	33	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Bird_search_Reasult/habitats_combine4_2.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	41	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Amphibian_search_Reasult/habitats_combine4_1.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	42	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Amphibian_search_Reasult/AmphibianUnsuitableHabitat_List.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	44	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Amphibian_search_Reasult/AmphibianUnsuitableHabitat_List2.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	48	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Reptile_search_Reasult/habitats_combine4_1.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	49	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Reptile_search_Reasult/ReptileUnsuitableHabitat_List.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	51	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Reptile_search_Reasult/ReptileUnsuitableHabitat_List2.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	54	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Bird_search_Reasult/habitats_combine4_2.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	55	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Bird_search_Reasult/BirdUnsuitableHabitat_List.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	57	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Bird_search_Reasult/BirdUnsuitableHabitat_List2.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	61	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Mammal_search_Reasult/habitats_combine4_1.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	62	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Mammal_search_Reasult/MammalUnsuitableHabitat_List.csv
+MainAnalysis/Habitat_Elevation&HabitatInfo_Merge.R	64	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Mammal_search_Reasult/MammalUnsuitableHabitat_List2.csv
+MainAnalysis/Habitat_extract_0916.R	9	input	read.csv	<PROJECT>/Table/VertebratesHabitat/habitats_legend3.csv
+MainAnalysis/Habitat_extract_0916.R	11	input	read.csv	<PROJECT>/Appendix/Landcover_Code3.csv
+MainAnalysis/Habitat_extract_0916.R	16	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Amphibian_search_Reasult/habitats.csv
+MainAnalysis/Habitat_extract_0916.R	20	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Amphibian_search_Reasult/habitats2.csv
+MainAnalysis/Habitat_extract_0916.R	47	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Amphibian_search_Reasult/Elevation.csv
+MainAnalysis/Habitat_extract_0916.R	49	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Amphibian_search_Reasult/habitats_combine6_1.csv
+MainAnalysis/Habitat_extract_0916.R	54	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Reptile_search_Reasult/habitats.csv
+MainAnalysis/Habitat_extract_0916.R	58	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Reptile_search_Reasult/habitats2.csv
+MainAnalysis/Habitat_extract_0916.R	85	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Reptile_search_Reasult/Elevation.csv
+MainAnalysis/Habitat_extract_0916.R	87	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Reptile_search_Reasult/habitats_combine6_1.csv
+MainAnalysis/Habitat_extract_0916.R	91	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Bird_search_Reasult/habitats.csv
+MainAnalysis/Habitat_extract_0916.R	95	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Bird_search_Reasult/habitats2.csv
+MainAnalysis/Habitat_extract_0916.R	122	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Bird_search_Reasult/Elevation.csv
+MainAnalysis/Habitat_extract_0916.R	125	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Bird_search_Reasult/habitats_combine6_1.csv
+MainAnalysis/Habitat_extract_0916.R	132	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Mammal_search_Reasult/habitats.csv
+MainAnalysis/Habitat_extract_0916.R	136	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Mammal_search_Reasult/habitats2.csv
+MainAnalysis/Habitat_extract_0916.R	163	input	read.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Mammal_search_Reasult/Elevation.csv
+MainAnalysis/Habitat_extract_0916.R	165	output	write.csv	<PROJECT>/Table/VertebratesHabitat/IUCN_Mammal_search_Reasult/habitats_combine6_1.csv
+MainAnalysis/Merge IUCN species distribution list with habitat list.R	4	input	read.csv	<PROJECT>/Table/SpeciesDistribution/AmphibianDist_nameList.csv
+MainAnalysis/Merge IUCN species distribution list with habitat list.R	5	input	read.csv	<PROJECT>/VertebratesHabitat/IUCN_Amphibian_search_Reasult/habitats_combine2.csv
+MainAnalysis/Merge IUCN species distribution list with habitat list.R	8	input	read.csv	<PROJECT>/Table/SpeciesDistribution/ReptileDist_nameList.csv
+MainAnalysis/Merge IUCN species distribution list with habitat list.R	9	input	read.csv	<PROJECT>/VertebratesHabitat/IUCN_Reptile_search_Reasult/habitats_combine2.csv
+MainAnalysis/Merge IUCN species distribution list with habitat list.R	14	input	read.csv	<PROJECT>/Table/SpeciesDistribution/BirdDist_nameList.csv
+MainAnalysis/Merge IUCN species distribution list with habitat list.R	15	input	read.csv	<PROJECT>/VertebratesHabitat/IUCN_Bird_search_Reasult/habitats_combine2.csv
+MainAnalysis/Merge IUCN species distribution list with habitat list.R	20	input	read.csv	<PROJECT>/Table/SpeciesDistribution/MammalDist_nameList.csv
+MainAnalysis/Merge IUCN species distribution list with habitat list.R	21	input	read.csv	<PROJECT>/VertebratesHabitat/IUCN_Mammal_search_Reasult/habitats_combine2.csv
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	10	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Table/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	12	input	list.files	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Amphibian/Agroforestry/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	17,29,40,50	path binding or fragment	str_replace_all/strsplit	.tif
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	24	input	list.files	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Reptile/Agroforestry/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	35	input	list.files	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Mammal/Agroforestry/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	45	input	list.files	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Bird/Agroforestry/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	57	input	rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Amphibian/Agroforestry/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	57,103,148,196	input	rast/paste0	.tif
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	59	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Amphibian/Agroforestry/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	59,66,105,112,150,157,198,205	input	tryCatch/rast/paste0	.tif
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	66	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Amphibian/Agroforestry/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	98	output	write.csv/paste0	Amphibian_Reforestation_Area_Agroforestry.csv
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	103	input	rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Reptile/Agroforestry/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	105	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Reptile/Agroforestry/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	112	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Reptile/Agroforestry/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	144	output	write.csv/paste0	Reptile_Reforestation_Area_Agroforestry.csv
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	148	input	rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Mammal/Agroforestry/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	150	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Mammal/Agroforestry/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	157	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Mammal/Agroforestry/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	189	output	write.csv/paste0	Mammal_Reforestation_Area_Agroforestry.csv
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	196	input	rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Bird/Agroforestry/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	198	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Bird/Agroforestry/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	205	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Bird/Agroforestry/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Agroforestry.R	239	output	write.csv/paste0	Bird_Reforestation_Area_Agroforestry.csv
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	10	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Table/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	12	input	list.files	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Amphibian/Natural/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	17,29,40,50	path binding or fragment	str_replace_all/strsplit	.tif
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	24	input	list.files	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Reptile/Natural/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	35	input	list.files	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Mammal/Natural/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	45	input	list.files	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Bird/Natural/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	57	input	rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Amphibian/Natural/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	57,103,148,196	input	rast/paste0	.tif
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	59	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Amphibian/Natural/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	59,66,105,112,150,157,198,205	input	tryCatch/rast/paste0	.tif
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	66	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Amphibian/Natural/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	98	output	write.csv/paste0	Amphibian_Reforestation_Area_Natural.csv
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	103	input	rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Reptile/Natural/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	105	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Reptile/Natural/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	112	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Reptile/Natural/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	144	output	write.csv/paste0	Reptile_Reforestation_Area_Natural.csv
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	148	input	rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Mammal/Natural/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	150	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Mammal/Natural/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	157	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Mammal/Natural/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	189	output	write.csv/paste0	Mammal_Reforestation_Area_Natural.csv
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	196	input	rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Bird/Natural/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	198	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Bird/Natural/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	205	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Bird/Natural/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Natural.R	239	output	write.csv/paste0	Bird_Reforestation_Area_Natural.csv
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	10	path binding or fragment	-	<HPC_SCRATCH>/Reforestation/Table/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	12	input	list.files	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Amphibian/Plantation/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	17,29,40,50	path binding or fragment	str_replace_all/strsplit	.tif
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	24	input	list.files	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Reptile/Plantation/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	35	input	list.files	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Mammal/Plantation/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	45	input	list.files	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Bird/Plantation/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	57	input	rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Amphibian/Plantation/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	57,103,148,196	input	rast/paste0	.tif
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	59	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Amphibian/Plantation/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	59,66,105,112,150,157,198,205	input	tryCatch/rast/paste0	.tif
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	66	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Amphibian/Plantation/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	98	output	write.csv/paste0	Amphibian_Reforestation_Area_Plantation.csv
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	103	input	rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Reptile/Plantation/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	105	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Reptile/Plantation/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	112	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Reptile/Plantation/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	144	output	write.csv/paste0	Reptile_Reforestation_Area_Plantation.csv
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	148	input	rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Mammal/Plantation/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	150	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Mammal/Plantation/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	157	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Mammal/Plantation/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	189	output	write.csv/paste0	Mammal_Reforestation_Area_Plantation.csv
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	196	input	rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Bird/Plantation/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	198	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/Mid/Bird/Plantation/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	205	input	tryCatch/rast/paste0	<HPC_SCRATCH>/Reforestation/Reforestation_Distribution_Map3/2020/Bird/Plantation/
+MainAnalysis/Reforestation_SpeciesArea_Statistic_Plantation.R	239	output	write.csv/paste0	Bird_Reforestation_Area_Plantation.csv
+MainAnalysis/Statistic_Area_Change_Significant_Aff&Ref_Continent_FourGroups_ForFigS7.R	19	input	read.csv/paste0	<PROJECT>/Table/Afforestation_SpeciesArea/Continent/
+MainAnalysis/Statistic_Area_Change_Significant_Aff&Ref_Continent_FourGroups_ForFigS7.R	19,77	input	read.csv/paste0	.csv
+MainAnalysis/Statistic_Area_Change_Significant_Aff&Ref_Continent_FourGroups_ForFigS7.R	21,79	input	read.csv/paste0	<PROJECT>/Table/VertebratesHabitat/IUCN_
+MainAnalysis/Statistic_Area_Change_Significant_Aff&Ref_Continent_FourGroups_ForFigS7.R	21,79	input	read.csv/paste0	_search_Reasult/assessments.csv
+MainAnalysis/Statistic_Area_Change_Significant_Aff&Ref_Continent_FourGroups_ForFigS7.R	58	output	write.csv/paste0	<PROJECT>/Table/Afforestation_SpeciesArea/Statistic_Result/Continent/
+MainAnalysis/Statistic_Area_Change_Significant_Aff&Ref_Continent_FourGroups_ForFigS7.R	58,115	output	write.csv/paste0	.csv
+MainAnalysis/Statistic_Area_Change_Significant_Aff&Ref_Continent_FourGroups_ForFigS7.R	77	input	read.csv/paste0	<PROJECT>/Table/Reforestation_SpeciesArea/Continent/
+MainAnalysis/Statistic_Area_Change_Significant_Aff&Ref_Continent_FourGroups_ForFigS7.R	115	output	write.csv/paste0	<PROJECT>/Table/Reforestation_SpeciesArea/Statistic_Result/Continent/
+MainAnalysis/Statistic_ForestationAreaInEachContinent.R	2	input	rast	<PROJECT>/Figure/Afforestation_Clip/Landcover1900_affClip.tif
+MainAnalysis/Statistic_ForestationAreaInEachContinent.R	3	input	rast	<PROJECT>/Figure/Reforestation_Clip/Landcover1900_refClip.tif
+MainAnalysis/Statistic_ForestationAreaInEachContinent.R	7	input	vect	<DOWNLOADS>/ArcGISLayer/Country_Continent/continentsEckert.shp
+MainAnalysis/Statistic_ForestationAreaInEachContinent.R	44	output	write.csv	<PROJECT>/Appendix/ForestationArea_InContinent.csv
+MainAnalysis/Statistic_SpeciesNumber_TotalAndEachGroup.R	7	path binding or fragment	-	<PROJECT>/Table/Afforestation_SpeciesArea/Statistic_Result/
+MainAnalysis/Statistic_SpeciesNumber_TotalAndEachGroup.R	53	path binding or fragment	-	<PROJECT>/Table/Reforestation_SpeciesArea/Statistic_Result/
+MainFigure/Fig1/Fig1a_Export_Aff&Ref_Distributionmap_10km.R	11	input	rast	<PROJECT>/Figure/Afforestation_Clip/Landcover2020_affClip.tif
+MainFigure/Fig1/Fig1a_Export_Aff&Ref_Distributionmap_10km.R	28	input	rast	<PROJECT>/Figure/Reforestation_Clip/Landcover2020_refClip.tif
+MainFigure/Fig1/Fig1a_Export_Aff&Ref_Distributionmap_10km.R	36	output	writeRaster	<PROJECT>/Figure/Aff&Ref_Distribution/ReforestationOnly_1225.tif
+MainFigure/Fig1/Fig1a_Export_Aff&Ref_Distributionmap_10km.R	83	output	writeRaster	<PROJECT>/Figure/Aff&Ref_Distribution/Afforestation_DistributionPercentage.tif
+MainFigure/Fig1/Fig1a_Export_Aff&Ref_Distributionmap_10km.R	84	output	writeRaster	<PROJECT>/Figure/Aff&Ref_Distribution/Reforestation_DistributionPercentage.tif
+MainFigure/Fig1/Fig1b_Continent_2foreationAreaStatistic.R	9	input	read.csv	<PROJECT>/Table/continent_3Forestation_Area_3Foresttype1225.csv
+MainFigure/Fig1/Fig1b_Continent_2foreationAreaStatistic.R	40	output	ggsave	<PROJECT>/Figure/Fig_Continent_3Forestation_AreaStatistic_3ForestType_0725.pdf
+MainFigure/Fig2/Aff&Reforestation_Statistic_LandcoverChange.R	6	input	rast	<PROJECT>/Figure/Fig2/Global_Afforestation_ChangeFlow.tif
+MainFigure/Fig2/Aff&Reforestation_Statistic_LandcoverChange.R	89	input	rast	<PROJECT>/Figure/Fig2/Global_Reforestation_ChangeFlow.tif
+MainFigure/Fig2/Aff&Reforestation_Statistic_LandcoverChange.R	181	output	saveWorkbook	<PROJECT>/Table/Aff&Reforestaton_LandcoverChangeOriginal-Middle-Final_1225.xlsx
+MainFigure/Fig2/Fig2_Global_LandcoverTransform_Sankey.R	8,120	input	read.xlsx	<PROJECT>/Table/Aff&Reforestaton_LandcoverChangeOriginal-Middle-Final_1225.xlsx
+MainFigure/Fig2/Fig2_Global_LandcoverTransform_Sankey.R	97	output	saveWidget	<PROJECT>/Figure/Fig2/Global_SankeyDiagram_EckertOriginal-Middle-Final_Afforestation_v_1225.html
+MainFigure/Fig2/Fig2_Global_LandcoverTransform_Sankey.R	99	render input or output	webshot	<PROJECT>/Figure/Fig2/Global_SankeyDiagram_EckertOriginal-Middle-Final_Afforestation_v_1225.html
+MainFigure/Fig2/Fig2_Global_LandcoverTransform_Sankey.R	100	render input or output	webshot	<PROJECT>/Figure/Fig2/Global_SankeyDiagram_EckertOriginal-Middle-Final_Afforestation_v_1225.pdf
+MainFigure/Fig2/Fig2_Global_LandcoverTransform_Sankey.R	208	output	saveWidget	<PROJECT>/Figure/Fig2/Global_SankeyDiagram_EckertOriginal-Middle-Final_Reorestation_v_1225.html
+MainFigure/Fig2/Fig2_Global_LandcoverTransform_Sankey.R	210	render input or output	webshot	<PROJECT>/Figure/Fig2/Global_SankeyDiagram_EckertOriginal-Middle-Final_Reorestation_v_1225.html
+MainFigure/Fig2/Fig2_Global_LandcoverTransform_Sankey.R	211	render input or output	webshot	<PROJECT>/Figure/Fig2/Global_SankeyDiagram_EckertOriginal-Middle-Final_Reforestation_v_1225.pdf
+MainFigure/Fig3/Fig3_Winner&Loser_Global_3ForestType_All&Group.R	11	input	read.csv/paste0	<PROJECT>/Table/Afforestation_SpeciesArea/Statistic_Result/
+MainFigure/Fig3/Fig3_Winner&Loser_Global_3ForestType_All&Group.R	11,12	input	read.csv/paste0	.csv
+MainFigure/Fig3/Fig3_Winner&Loser_Global_3ForestType_All&Group.R	12	input	read.csv/paste0	<PROJECT>/Table/Reforestation_SpeciesArea/Statistic_Result/
+MainFigure/Fig3/Fig3_Winner&Loser_Global_3ForestType_All&Group.R	20	output	write.csv/paste0	<PROJECT>/Table/Afforestation_SpeciesArea/Statistic_Result/
+MainFigure/Fig3/Fig3_Winner&Loser_Global_3ForestType_All&Group.R	20,30	output	write.csv/paste0	AddWinner.csv
+MainFigure/Fig3/Fig3_Winner&Loser_Global_3ForestType_All&Group.R	30	output	write.csv/paste0	<PROJECT>/Table/Reforestation_SpeciesArea/Statistic_Result/
+MainFigure/Fig3/Fig3_Winner&Loser_Global_3ForestType_All&Group.R	233	output	ggsave	<PROJECT>/Figure/Fig3/Fig_Loser&Winner_5*2_All_Group.pdf
+MainFigure/Fig3/Fig3_Winner&Loser_Global_3ForestType_All&Group.R	274	output	ggsave	<PROJECT>/Figure/Appendix/Fig_Loser&Winner_5*2_All_Group_Ratio.pdf
+MainFigure/Fig3/FourGroups_Statistic_Area_Change_Significant_3Cate.R	18	input	read.csv/paste0	<PROJECT>/Table/Afforestation_SpeciesArea/
+MainFigure/Fig3/FourGroups_Statistic_Area_Change_Significant_3Cate.R	18,72	input	read.csv/paste0	.csv
+MainFigure/Fig3/FourGroups_Statistic_Area_Change_Significant_3Cate.R	20,74	input	read.csv/paste0	<PROJECT>/Table/VertebratesHabitat/IUCN_
+MainFigure/Fig3/FourGroups_Statistic_Area_Change_Significant_3Cate.R	20,74	input	read.csv/paste0	_search_Reasult/assessments.csv
+MainFigure/Fig3/FourGroups_Statistic_Area_Change_Significant_3Cate.R	57	output	write.csv/paste0	<PROJECT>/Table/Afforestation_SpeciesArea/Statistic_Result/
+MainFigure/Fig3/FourGroups_Statistic_Area_Change_Significant_3Cate.R	57,111	output	write.csv/paste0	.csv
+MainFigure/Fig3/FourGroups_Statistic_Area_Change_Significant_3Cate.R	72	input	read.csv/paste0	<PROJECT>/Table/Reforestation_SpeciesArea/
+MainFigure/Fig3/FourGroups_Statistic_Area_Change_Significant_3Cate.R	111	output	write.csv/paste0	<PROJECT>/Table/Reforestation_SpeciesArea/Statistic_Result/
+MainFigure/Fig3/Statistic_SpeciesNumber_TotalAndEachGroup.R	7	path binding or fragment	-	<PROJECT>/Table/Afforestation_SpeciesArea/Statistic_Result/
+MainFigure/Fig3/Statistic_SpeciesNumber_TotalAndEachGroup.R	53	path binding or fragment	-	<PROJECT>/Table/Reforestation_SpeciesArea/Statistic_Result/
+MainFigure/Fig4/Fig4_IUCNcategory_Proportion.R	12	input	read.csv/paste0	<PROJECT>/Table/Afforestation_SpeciesArea/Statistic_Result/
+MainFigure/Fig4/Fig4_IUCNcategory_Proportion.R	12,13	input	read.csv/paste0	AddWinner.csv
+MainFigure/Fig4/Fig4_IUCNcategory_Proportion.R	13	input	read.csv/paste0	<PROJECT>/Table/Reforestation_SpeciesArea/Statistic_Result/
+MainFigure/Fig4/Fig4_IUCNcategory_Proportion.R	147	output	ggsave	<PROJECT>/Figure/Fig4/Fig_Loser&Winner_5*6_All_Group_IUCNCategory.pdf
+MainFigure/Fig5/Fig5_All_Group_Pi.R	2	input	rast	<PROJECT>/Figure/Fig5/All_Afforestation_SRchange.tif
+MainFigure/Fig5/Fig5_All_Group_Pi.R	3	input	rast	<PROJECT>/Figure/Fig5/All_Reforestation_SRchange.tif
+MainFigure/Fig5/Fig5_All_Group_Pi.R	77	output	ggsave	<PROJECT>/Figure/Fig5/AllGroup_Pi.pdf
+MainFigure/Fig5/Fig5_Four_Group_Pi.R	8	input	rast	<PROJECT>/Figure/Fig5/Amphibian_Afforestation_SRchange.tif
+MainFigure/Fig5/Fig5_Four_Group_Pi.R	9	input	rast	<PROJECT>/Figure/Fig5/Amphibian_Reforestation_SRchange.tif
+MainFigure/Fig5/Fig5_Four_Group_Pi.R	71	output	ggsave	<PROJECT>/Figure/Fig5/AllGroup_Pi.pdf
+MainFigure/Fig5/Fig5_Four_Group_Pi.R	77	input	rast	<PROJECT>/Figure/Fig5/Reptile_Afforestation_SRchange.tif
+MainFigure/Fig5/Fig5_Four_Group_Pi.R	78	input	rast	<PROJECT>/Figure/Fig5/Reptile_Reforestation_SRchange.tif
+MainFigure/Fig5/Fig5_Four_Group_Pi.R	141	input	rast	<PROJECT>/Figure/Fig5/Bird_Afforestation_SRchange.tif
+MainFigure/Fig5/Fig5_Four_Group_Pi.R	142	input	rast	<PROJECT>/Figure/Fig5/Bird_Reforestation_SRchange.tif
+MainFigure/Fig5/Fig5_Four_Group_Pi.R	207	input	rast	<PROJECT>/Figure/Fig5/Mammal_Afforestation_SRchange.tif
+MainFigure/Fig5/Fig5_Four_Group_Pi.R	208	input	rast	<PROJECT>/Figure/Fig5/Mammal_Reforestation_SRchange.tif
+MainFigure/Fig5/Fig5_Four_Group_Pi.R	272	output	ggsave	<PROJECT>/Figure/Fig5/FourGroup_Pi.pdf
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_All.R	5,48	input	vect	<PAPERS>/Global30Conservation/Polygon/fishnet10km_2.shp
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_All.R	7	input	read.csv	<PROJECT>/Table/Afforestation_SpeciesArea/AmphibianSquare_Afforestation_TD.csv
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_All.R	12	input	read.csv	<PROJECT>/Table/Afforestation_SpeciesArea/ReptileSquare_Afforestation_TD.csv
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_All.R	18	input	read.csv	<PROJECT>/Table/Afforestation_SpeciesArea/BirdSquare_Afforestation_TD.csv
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_All.R	22	input	read.csv	<PROJECT>/Table/Afforestation_SpeciesArea/MammalSquare_Afforestation_TD.csv
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_All.R	38	output	writeRaster	<PROJECT>/Figure/Fig5/All_Afforestation_SRchange.tif
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_All.R	50	input	read.csv	<PROJECT>/Table/Reforestation_SpeciesArea/AmphibianSquare_Reforestation_TD.csv
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_All.R	55	input	read.csv	<PROJECT>/Table/Reforestation_SpeciesArea/ReptileSquare_Reforestation_TD.csv
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_All.R	61	input	read.csv	<PROJECT>/Table/Reforestation_SpeciesArea/BirdSquare_Reforestation_TD.csv
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_All.R	65	input	read.csv	<PROJECT>/Table/Reforestation_SpeciesArea/MammalSquare_Reforestation_TD.csv
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_All.R	81	output	writeRaster	<PROJECT>/Figure/Fig5/All_Reforestation_SRchange.tif
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_FourGroup.R	5,68	input	vect	<PAPERS>/Global30Conservation/Polygon/fishnet10km_2.shp
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_FourGroup.R	6	input	read.csv	<PROJECT>/Table/Afforestation_SpeciesArea/AmphibianSquare_Afforestation_TD.csv
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_FourGroup.R	16	output	writeRaster	<PROJECT>/Figure/Fig5/Amphibian_Afforestation_SRchange.tif
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_FourGroup.R	19	input	read.csv	<PROJECT>/Table/Afforestation_SpeciesArea/ReptileSquare_Afforestation_TD.csv
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_FourGroup.R	30	output	writeRaster	<PROJECT>/Figure/Fig5/Reptile_Afforestation_SRchange.tif
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_FourGroup.R	34	input	read.csv	<PROJECT>/Table/Afforestation_SpeciesArea/BirdSquare_Afforestation_TD.csv
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_FourGroup.R	44	output	writeRaster	<PROJECT>/Figure/Fig5/Bird_Afforestation_SRchange.tif
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_FourGroup.R	48	input	read.csv	<PROJECT>/Table/Afforestation_SpeciesArea/MammalSquare_Afforestation_TD.csv
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_FourGroup.R	58	output	writeRaster	<PROJECT>/Figure/Fig5/Mammal_Afforestation_SRchange.tif
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_FourGroup.R	69	input	read.csv	<PROJECT>/Table/Reforestation_SpeciesArea/AmphibianSquare_Reforestation_TD.csv
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_FourGroup.R	79	output	writeRaster	<PROJECT>/Figure/Fig5/Amphibian_Reforestation_SRchange.tif
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_FourGroup.R	82	input	read.csv	<PROJECT>/Table/Reforestation_SpeciesArea/ReptileSquare_Reforestation_TD.csv
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_FourGroup.R	93	output	writeRaster	<PROJECT>/Figure/Fig5/Reptile_Reforestation_SRchange.tif
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_FourGroup.R	97	input	read.csv	<PROJECT>/Table/Reforestation_SpeciesArea/BirdSquare_Reforestation_TD.csv
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_FourGroup.R	107	output	writeRaster	<PROJECT>/Figure/Fig5/Bird_Reforestation_SRchange.tif
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_FourGroup.R	111	input	read.csv	<PROJECT>/Table/Reforestation_SpeciesArea/MammalSquare_Reforestation_TD.csv
+MainFigure/Fig5/Fig5_TD_Rasterize_Aff&Reforestation_FourGroup.R	121	output	writeRaster	<PROJECT>/Figure/Fig5/Mammal_Reforestation_SRchange.tif
+SupplementaryFigure/FigS1_Analysis_LandcoverChangeHistory.R	7	path binding or fragment	-	<PROJECT>/all_athromes_Landcover/Reclassified
+SupplementaryFigure/FigS1_Analysis_LandcoverChangeHistory.R	169	output	ggsave	<PROJECT>/Figure/Appendix/ForestationHappen_InHistory_All.pdf
+SupplementaryFigure/FigS3_Forestation_Natural_ActiveHumanUse_Occupy_.R	7	input	rast	<DATA_VOLUME>/GlobalLanduseData/LanduseChange_1899-2019/V2/Landcover1900.tif
+SupplementaryFigure/FigS3_Forestation_Natural_ActiveHumanUse_Occupy_.R	8	input	rast	<DATA_VOLUME>/GlobalLanduseData/LanduseChange_1899-2019/V2/last_non_forest_type2.tif
+SupplementaryFigure/FigS3_Forestation_Natural_ActiveHumanUse_Occupy_.R	16	input	rast	<PROJECT>/Figure/Afforestation_Clip/Landcover2020_affClip.tif
+SupplementaryFigure/FigS3_Forestation_Natural_ActiveHumanUse_Occupy_.R	17	input	rast	<PROJECT>/Figure/Reforestation_Clip/Landcover2020_refClip.tif
+SupplementaryFigure/FigS3_Forestation_Natural_ActiveHumanUse_Occupy_.R	24	output	writeRaster	<DATA_VOLUME>/GlobalLanduseData/LanduseChange_1899-2019/V2/NaturalLandCover_ActiveHumanUse_AfterForestType.tif
+SupplementaryFigure/FigS5_Overlap_Forest&PlantationPaper0916.R	3	input	rast	<DATA_VOLUME>/GlobalLanduseData/LanduseChange_1899-2019/V2/Landcover2020_1.tif
+SupplementaryFigure/FigS5_Overlap_Forest&PlantationPaper0916.R	6	input	rast	<DATA_VOLUME>/Natural&Planting forest/10478678/Natu_Plant2020_Eckert.tif
+SupplementaryFigure/FigS5_Overlap_Forest&PlantationPaper0916.R	44	input	rast	<DATA_VOLUME>/GlobalLanduseData/LanduseChange_1899-2019/V2/Sixtype_Forest2020_Location.tif
+SupplementaryFigure/FigS5_Overlap_Forest&PlantationPaper0916.R	91	output	writeRaster	<PROJECT>/Figure/Appendix/ForestMismatch/ForestMismatch.tif
+SupplementaryFigure/FigS5_Overlap_Forest&PlantationPaper0916.R	92	output	writeRaster	<PROJECT>/Figure/Appendix/ForestMismatch/ForestMismatch2.tif
+SupplementaryFigure/FigS5_Overlap_Forest&PlantationPaper0916.R	93	output	writeRaster	<PROJECT>/Figure/Appendix/ForestMismatch/ForestMatch.tif
+SupplementaryFigure/FigS6_Ratio_ForestType.R	11	input	read.csv/paste0	<PROJECT>/Table/Afforestation_SpeciesArea/Statistic_Result/
+SupplementaryFigure/FigS6_Ratio_ForestType.R	11,12	input	read.csv/paste0	.csv
+SupplementaryFigure/FigS6_Ratio_ForestType.R	12	input	read.csv/paste0	<PROJECT>/Table/Reforestation_SpeciesArea/Statistic_Result/
+SupplementaryFigure/FigS6_Ratio_ForestType.R	20	output	write.csv/paste0	<PROJECT>/Table/Afforestation_SpeciesArea/Statistic_Result/
+SupplementaryFigure/FigS6_Ratio_ForestType.R	20,30	output	write.csv/paste0	AddWinner.csv
+SupplementaryFigure/FigS6_Ratio_ForestType.R	30	output	write.csv/paste0	<PROJECT>/Table/Reforestation_SpeciesArea/Statistic_Result/
+SupplementaryFigure/FigS6_Ratio_ForestType.R	249	output	ggsave	<PROJECT>/Figure/Appendix/Fig_Loser&Winner_5*2_All_Group_Ratio.pdf
+SupplementaryFigure/FigS7_Winner&Loser_Global_3Cate_0401Final_Continent.R	13	input	read.csv/paste0	<PROJECT>/Table/Statistic_Result/Continent/Afforestation/
+SupplementaryFigure/FigS7_Winner&Loser_Global_3Cate_0401Final_Continent.R	13,14	input	read.csv/paste0	.csv
+SupplementaryFigure/FigS7_Winner&Loser_Global_3Cate_0401Final_Continent.R	14	input	read.csv/paste0	<PROJECT>/Table/Statistic_Result/Continent/Reforestation/
+SupplementaryFigure/FigS7_Winner&Loser_Global_3Cate_0401Final_Continent.R	130	output	ggsave/paste0	<PROJECT>/Figure/Appendix/Continent/Fig_Loser&Winner_5*2_Group_
+SupplementaryFigure/FigS7_Winner&Loser_Global_3Cate_0401Final_Continent.R	130	output	ggsave/paste0	_Num.pdf
+SupplementaryFigure/FigS7_Winner&Loser_Global_3Cate_0401Final_Continent.R	157	output	ggsave	<PROJECT>/Figure/StatisticResult/Fig_Loser&Winner.pdf
+SupplementaryFigure/FigS8_Ratio_IUCN.R	12	input	read.csv/paste0	<PROJECT>/Table/Afforestation_SpeciesArea/Statistic_Result/
+SupplementaryFigure/FigS8_Ratio_IUCN.R	12,13	input	read.csv/paste0	AddWinner.csv
+SupplementaryFigure/FigS8_Ratio_IUCN.R	13	input	read.csv/paste0	<PROJECT>/Table/Reforestation_SpeciesArea/Statistic_Result/
