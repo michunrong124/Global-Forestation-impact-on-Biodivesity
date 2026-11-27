@@ -12,9 +12,7 @@ The October 27, 2026 Nature Sustainability submission manuscript describes the w
 
 **Demo.** R plus the CRAN packages `raster` and `terra`. The demo runs serially and creates its own 4 × 4 grid. It was tested on macOS 26.6.2 (Apple silicon) with R 4.5.1, `raster` 3.6-32, and `terra` 1.9-60. No cluster or third-party input data are required. See [verification](docs/submission-checklist.md) for the measured environment and versions.
 
-**Global analysis.** The submission Methods specify R 4.3.2 for the McNemar tests. The historical README separately reports R 4.3.2 on Princeton University’s HPC cluster, more than 1,000 GB RAM for some scripts, and more than 100 hours of cumulative runtime across species. The exact allocation of analysis stages between these R environments remains unverified. The historical package versions, cluster OS, and basis of the reported memory figure remain to be confirmed. The AOH scripts request 10 or 40 workers via `snowfall`. The statistics scripts also use `parallel::mclapply` with multiple cores, which requires fork support as written. Plan for storage for per-species rasters, intermediate tables, and raster temporary files.
-
-The [dependency inventory](docs/script-dependencies.tsv) lists each original script’s package calls, including worker imports. `parallel` and `stats` ship with R. Source builds of `terra` and `sf` need a compatible toolchain and GDAL, GEOS, PROJ, and SQLite. Check the package requirements for `terra` (C++17 and TBB), `sf` dependencies (including UDUNITS-2 for `units`), and `magick` (ImageMagick++). Fig. 2’s self-contained HTML and PDF export uses Pandoc and PhantomJS, respectively. [terra requirements](https://cran.r-project.org/package=terra) · [sf requirements](https://cran.r-project.org/package=sf) · [HTML widget export documentation](https://rstudio.github.io/bookdown/html-widgets.html)
+**Global analysis.** The submission Methods specify R 4.3.2 for the McNemar tests. The original workflow used Princeton’s HPC cluster. See the [system requirements and workflow audit](docs/workflow-audit.md#global-analysis-environment) for dependencies, figure export tools, and resource requirements.
 
 ## Installation guide
 
@@ -26,9 +24,21 @@ mkdir -p "$R_LIBS_USER"
 Rscript --vanilla install_packages.R demo
 ```
 
-For the original scripts, use `Rscript --vanilla install_packages.R analysis` instead. The installer lists the resulting versions and uses the platform’s default CRAN package type. Use a separate library for each environment you want to retain. On platforms that compile packages from source, install the system libraries above first. Check `rmarkdown::pandoc_available()` and `webshot::is_phantomjs_installed()` before running the Fig. 2 export script.
+For the original scripts, run `Rscript --vanilla install_packages.R analysis`. See the [system requirements for the global workflow](docs/workflow-audit.md#global-analysis-environment) before running the scripts.
 
 The observed binary installation took **4.24–4.40 seconds** for the demo packages and **8.64 seconds** for the analysis package set in empty target libraries on the test Mac. R and some dependencies were already installed in the shared R library. Download speed and source builds can change these times. Setup time for the full HPC workflow remains unmeasured.
+
+## Demo
+
+From the repository root, using the same R library as for installation, run:
+
+```sh
+Rscript --vanilla demo/run_demo.R
+```
+
+The script checks the forestation masks and writes 18 rows to `demo/aoh_results.csv` after they match the expected values. An optional argument sets a different output path. Observed runtime was **8–10 seconds** on the tested Mac. [Expected CSV](demo/expected_aoh.csv)
+
+The example generates synthetic historical, potential-vegetation, and forest-type layers, plus three fictional species. It builds range/elevation masks as fixture inputs and executes the original forestation generator and amphibian AOH and area workers with local paths. The output reports pre-forestation-only habitat (loss), 2020-only habitat (gain), and shared habitat (retained) for each species, mode, and forest type. One cell is 1 km². For example, `Demo A` gains 1 km² and retains 1 km² in naturally afforested cells. The sample ends at AOH accounting, before significance tests and figure creation.
 
 ## Data availability
 
@@ -48,18 +58,6 @@ The repository includes [the habitat-to-land-cover crosswalk](supplementaryTable
 
 The public HILDA+ v2.0 and Xu archives list CC BY 4.0. Confirm the exact releases and preprocessing used for the manuscript before staging inputs. Obtain species range data under the providers’ terms. WorldClim permits academic use and requires permission to redistribute its data. [HILDA+ v2.0 archive](https://doi.pangaea.de/10.1594/PANGAEA.974335) · [Xu archive](https://zenodo.org/records/10478678) · [BirdLife terms](https://datazone.birdlife.org/terms-and-conditions) · [IUCN spatial data terms](https://nc.iucnredlist.org/redlist/content/attachment_files/RLSpatial_metadata_v6.2.pdf) · [WorldClim terms](https://worldclim.org/about.html)
 
-## Demo
-
-From the repository root, using the same R library as for installation, run:
-
-```sh
-Rscript --vanilla demo/run_demo.R
-```
-
-The script prints `Verified 18 AOH rows in demo/aoh_results.csv` and writes a CSV matching [the expected output](demo/expected_aoh.csv). An optional argument sets a different CSV path in an existing directory. The script checks the forestation masks and all three AOH measures, then writes the CSV. Intermediate rasters are created in a temporary directory. Observed runtime was **8–10 seconds** on the tested Mac.
-
-The example generates synthetic historical, potential-vegetation, and forest-type layers, plus three fictional species. It builds range/elevation masks as fixture inputs and executes the original forestation generator and amphibian AOH and area workers with local paths. The output reports pre-forestation-only habitat (loss), 2020-only habitat (gain), and shared habitat (retained) for each species, mode, and forest type. One cell is 1 km². For example, `Demo A` gains 1 km² and retains 1 km² in naturally afforested cells. The sample ends at AOH accounting, before significance tests and figure creation.
-
 ## Instructions for use
 
 1. Stage your data outside the code checkout. For forestation classification, prepare aligned categorical rasters for 1900, 1920, 1940, 1960, 1980, 2000, and 2020, a reclassified potential natural vegetation raster, and a 2020 Xu forest-type raster. Use the original categorical codes and a common Eckert IV grid with 1,000 m cells. Review the generator and Methods before adapting raw products.
@@ -69,7 +67,7 @@ The example generates synthetic historical, potential-vegetation, and forest-typ
 
 ## Reproduction instructions
 
-See the [workflow and figure mapping](docs/workflow-audit.md) for execution order, input/output contracts, and missing staging or preprocessing. A complete global rerun requires several intermediate products or their original producers as well as the third-party source data. The [submission status](docs/submission-checklist.md) records the scope of verification and outstanding items.
+See the [workflow and figure mapping](docs/workflow-audit.md) for execution order, input/output contracts, and missing staging or preprocessing. See the [submission checklist](docs/submission-checklist.md) for verification and outstanding items.
 
 ## License
 
