@@ -1,0 +1,19 @@
+mode,forest_type,species,loss_km2,gain_km2,retained_km2
+Afforestation,Natural,Demo A,0,1,1
+Afforestation,Natural,Demo B,0,0,0
+Afforestation,Natural,Demo C,0,0,0
+Afforestation,Plantation,Demo A,0,0,0
+Afforestation,Plantation,Demo B,0,1,0
+Afforestation,Plantation,Demo C,1,0,0
+Afforestation,Agroforestry,Demo A,1,0,0
+Afforestation,Agroforestry,Demo B,1,0,0
+Afforestation,Agroforestry,Demo C,0,2,0
+Reforestation,Natural,Demo A,0,2,0
+Reforestation,Natural,Demo B,1,0,0
+Reforestation,Natural,Demo C,1,0,0
+Reforestation,Plantation,Demo A,0,0,0
+Reforestation,Plantation,Demo B,0,0,1
+Reforestation,Plantation,Demo C,0,0,0
+Reforestation,Agroforestry,Demo A,1,0,0
+Reforestation,Agroforestry,Demo B,0,0,0
+Reforestation,Agroforestry,Demo C,0,1,1
